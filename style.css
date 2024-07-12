@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'circulerstd';
+    src: url('./assets/CircularStd-Medium.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'circulerstd';
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.filter{
+    filter: contrast(85%);
+}
